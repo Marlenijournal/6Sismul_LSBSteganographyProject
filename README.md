@@ -4,12 +4,11 @@
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![CustomTkinter](https://img.shields.io/badge/GUI-CustomTkinter-green.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)
 
 **Aplikasi Desktop untuk Menyembunyikan dan Mengekstrak Pesan Rahasia dalam Gambar**
 
-[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Screenshots](#-screenshots) • [Contributing](#-contributing)
+[Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Screenshots](#-screenshots) 
 
 </div>
 
@@ -17,7 +16,7 @@
 
 ## 📖 Deskripsi
 
-**LSB Steganography** adalah aplikasi desktop yang menggunakan teknik **Least Significant Bit (LSB)** untuk menyembunyikan pesan rahasia di dalam gambar digital. Aplikasi ini dikembangkan menggunakan Python dengan antarmuka yang modern dan user-friendly.
+**LSB Steganography** adalah aplikasi desktop yang menggunakan teknik **Least Significant Bit (LSB)** untuk menyembunyikan pesan rahasia di dalam gambar digital. Aplikasi ini dikembangkan menggunakan Python dengan antarmuka yang modern dan user-friendly. **Program sudah di deploy dan bisa langsung di gunakan dengan menggunakan file LSB_Steganography.exe**
 
 ### 🎯 Tujuan Proyek
 - Implementasi algoritma steganografi LSB
@@ -195,43 +194,6 @@ File executable akan tersedia di folder `dist/`
 - **Ukuran pesan** terbatas pada kapasitas gambar (width × height × 3)
 - **Format output** selalu PNG untuk menjaga kualitas
 - **Perubahan visual** minimal dan tidak terdeteksi mata
-
----
-
-## 🤝 Contributing
-
-Kontribusi sangat diterima! Berikut cara berkontribusi:
-
-1. **Fork** repository ini
-2. **Buat branch** untuk fitur baru (`git checkout -b feature/AmazingFeature`)
-3. **Commit** perubahan (`git commit -m 'Add some AmazingFeature'`)
-4. **Push** ke branch (`git push origin feature/AmazingFeature`)
-5. **Buka Pull Request**
-
-### 📝 Guidelines
-- Pastikan kode mengikuti PEP 8
-- Tambahkan docstring untuk fungsi baru
-- Test fitur sebelum submit PR
-- Update dokumentasi jika diperlukan
-
----
-
-## 🐛 Known Issues
-
-- [ ] File JPEG kadang mengalami degradasi kualitas
-- [ ] Pesan sangat panjang dapat menyebabkan crash
-- [ ] Dark theme belum optimal di beberapa widget
-
----
-
-## 🔮 Future Features
-
-- [ ] **Enkripsi pesan** sebelum steganografi
-- [ ] **Batch processing** multiple files
-- [ ] **Drag & drop** interface
-- [ ] **Password protection** untuk pesan
-- [ ] **Compression** untuk pesan panjang
-- [ ] **Audio steganography** support
 
 ---
 
